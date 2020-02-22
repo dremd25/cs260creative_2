@@ -1,3 +1,72 @@
 * {
-	margin: 0;
-};
+    margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    background: url('/images/bones.jpg') green;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+	overflow-x: hidden;
+}
+
+.header {
+	width: 100vw;
+	padding: 10px;
+	margin: auto;
+    background-color: white;
+    opacity: 0.6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header h1 {
+	color: black;
+	opacity: 1.0;
+}
+
+.button_holder {
+	width: 100vw;
+	margin: auto;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	font-size: 16px;
+}
+
+#dog_pic {
+	margin: auto;
+	padding: 10px;
+	padding-bottom: 60px;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Footer */
+.footer {
+	width: 100vw;
+	/*margin: auto;*/
+    padding-top: 10px;
+    background-color: black;
+    opacity: 0.8;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer p {
+    margin: 0;
+}
